@@ -9,6 +9,12 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class EurekaServerApplication {
 
 	public static void main(String[] args) {
+
+		/*
+		Consulta das instâncias das aplicações
+		http://localhost:8010/eureka/apps/spring-keycloak
+		 */
+
 		SpringApplication.run(EurekaServerApplication.class, args);
 	}
 
